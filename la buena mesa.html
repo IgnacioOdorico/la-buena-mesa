@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La buena mesa</title>
+</head>
+<body>
+    <header>
+        <h1>La buena mesa</h1>
+        <p>comida casera, sabor real</p>
+
+        <nav>
+            <ul>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#reservas">reservas</a></li>
+                <li><a href="ubicacion.html">Como llegar?</a></li>
+            </ul>
+        </nav>
+
+    
+    </header>
+
+    <main>
+        <!--seccion menu-->
+        <section id="menu">
+            <h2>Menu del dia</h2>
+        
+            <article>
+                <h3>Milanesas con papas</h3>
+                <p>clasica milanesa de carne servida con papas</p>
+            </article>
+
+            <article>
+                <h3>fideos moñitos</h3>
+                <p>clasico guiso de fideos moñitos</p>
+            </article>
+
+            <article>
+                <h3>ensalada de papa</h3>
+                <p>clasica ensalada de papas con mucha mas papa xd</p>
+            </article>
+
+            <article>
+                <h3>entraña a la parrila</h3>
+                <p>rica entraña a de carne vacuna hecha a la parrila</p>
+            </article>
+
+        </section>
+        <hr>
+        <aside id="nosotros">
+            <h2> sobre nosotros</h2>
+            <p>somos un restaurante principiante pero con mucha pasion por la buena comida</p>
+        </aside>
+        <hr>
+        <section id="reservas">
+            <h2>Reserva tu mesa</h2>
+            <form>
+                <fieldset>
+                    <legend>Datos de reserva</legend>
+
+                    <label for="nombre">nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="nachito">
+                    <br><br>
+
+                    <label for="email">correo</label>
+                    <input type="email" id="email" name="email" required placeholder="ncahito@gmial.com">
+                    <br><br>
+
+                    <label for="fecha">fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                    <br><br>
+
+                    <label for="hora">hora:</label>
+                    <input type="time" id="hora" name="hora" required>
+                    <br><br>
+
+                    <label for="personas">Personas</label>
+                    <input type="number" id="personas" name="personas" required min="1" max="10">
+                    <br><br>
+
+                    <label for="com_adicional">comentario adicional</label>
+                    <br><br>
+                    <textarea name="com_adicional" id="com_adicional" rows="6" placeholder="ej: sin glunet o lactosa"></textarea>
+                     <button type="submit"> enviar reserva</button>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 la buena mesa -- todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
